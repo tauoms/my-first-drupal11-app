@@ -1,0 +1,11 @@
+name: IceCream
+type: theme
+description: 'Custom test theme.'
+core_version_requirement: ^10 || ^11
+# libraries:
+base theme: olivero
+regions:
+  header: 'Header'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'
