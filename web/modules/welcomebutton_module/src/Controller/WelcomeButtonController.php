@@ -8,7 +8,9 @@ use Symfony\Component\HttpFoundation\Response;
 class WelcomeButtonController extends ControllerBase {
 
     public function welcomeButton() {
-        return new Response('Print name: Tuomas K');
+        return [
+            '#markup' => '<button>button</button>',
+        ];
     }
 
 }

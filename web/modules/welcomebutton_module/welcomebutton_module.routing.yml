@@ -1,7 +1,7 @@
 welcomebutton_module.page:
   path: "/welcomebutton"
   defaults:
-    _controller: '\Drupal\welcomebutton_module\Controller\WelcomeController::welcomeButton'
+    _controller: '\Drupal\welcomebutton_module\Controller\WelcomeButtonController::welcomeButton'
     _title: "welcomebutton module"
   requirements:
     _permission: "access content"
