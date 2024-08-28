@@ -1,4 +1,4 @@
-first_module.page:
+print_name.page:
   path: "/printname"
   defaults:
     _controller: '\Drupal\print_name\Controller\PrintNameController::print_name'
