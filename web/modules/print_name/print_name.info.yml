@@ -1,0 +1,5 @@
+name: print_name
+description: 'Print name module.'
+type: module
+core_version_requirement: ^10 || ^11 || ^12
+
