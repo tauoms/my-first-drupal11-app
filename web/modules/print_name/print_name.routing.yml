@@ -1,5 +1,13 @@
-print_name.form:
+print_name.page:
   path: "/printname"
+  defaults:
+    _controller: '\Drupal\print_name\Controller\PrintNameController::print_name'
+    _title: "Print name module"
+  requirements:
+    _permission: "access content"
+
+print_name.form:
+  path: "/printname-form"
   defaults:
     _form: '\Drupal\print_name\Form\PrintNameForm'
     _title: "Print name form"
