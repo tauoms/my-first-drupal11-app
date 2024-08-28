@@ -15,7 +15,7 @@ class PrintNameForm extends FormBase {
         $form['name'] = [
             '#type' => 'textfield',
             '#title' => $this->t('Your name'),
-            '#required' => TRUE,
+            '#required' => true,
         ];
     
         $form['submit'] = [
@@ -27,6 +27,7 @@ class PrintNameForm extends FormBase {
 
     public function submitForm(array &$form, FormStateInterface $form_state)
     {
-        
+        $name = $form_state->getValue('name');
+        \Drupal::messenger()->addMessage($this->t('Hello, @name!', ['@name' => $name]));
     }
 }
