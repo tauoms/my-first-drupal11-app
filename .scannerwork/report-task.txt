@@ -1,0 +1,6 @@
+projectKey=drupal11_sonqube
+serverUrl=http://localhost:8889
+serverVersion=10.6.0.92116
+dashboardUrl=http://localhost:8889/dashboard?id=drupal11_sonqube
+ceTaskId=07cb3dcd-b7ce-4895-815d-db075ac4943e
+ceTaskUrl=http://localhost:8889/api/ce/task?id=07cb3dcd-b7ce-4895-815d-db075ac4943e
