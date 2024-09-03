@@ -1,5 +1,5 @@
 print_name.page:
-  path: "/printname/{url_name}"
+  path: "/printname/"
   defaults:
     _controller: '\Drupal\print_name\Controller\PrintNameController::print_name'
     _title: "Print name module"
@@ -14,11 +14,10 @@ print_name.form:
   requirements:
     _permission: "access content"
 
-# url_name.page:
-#   path: "/printname/{url_name}"
-#   defaults:
-#     _controller: '\Drupal\print_name\Controller\PrintNameController::getNameFromUrl'
-#     _title: "Print name module"
-#     _methods: [GET]
-#   requirements:
-#     _permission: "access content"
+print_name.greeting:
+  path: "/printname/{url_name}"
+  defaults:
+    _controller: '\Drupal\print_name\Controller\PrintNameController::greeting'
+    _title: "Personalised greeting"
+  requirements:
+    _permission: "access content"

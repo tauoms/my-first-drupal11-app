@@ -18,5 +18,10 @@ class PrintNameController extends ControllerBase {
             '#markup' => $this->t('Hello, @urlName! @link', ['@link' => $link, '@urlName' => $request->get('url_name')])
         ];
     }
+    public function greeting($url_name) {
+        return [
+            '#markup' => $this->t('Hello, @name!', ['@name' => $url_name])
+        ];
+    }
 
 }
