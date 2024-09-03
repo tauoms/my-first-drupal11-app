@@ -10,12 +10,12 @@ use Symfony\Component\HttpFoundation\Request;
 
 class PrintNameController extends ControllerBase {
 
-    public function print_name(Request $request) {
+    public function print_name() {
         //return new Response('Print name: Tuomas K')
         $url = Url::fromRoute('print_name.form');
         $link = Link::fromTextAndUrl($this->t('Go to the form'), $url)->toString();
         return [
-            '#markup' => $this->t('Hello, @urlName! @link', ['@link' => $link, '@urlName' => $request->get('url_name')])
+            '#markup' => $this->t('Hello, @urlName! @link', ['@link' => $link])
         ];
     }
     public function greeting($url_name) {
