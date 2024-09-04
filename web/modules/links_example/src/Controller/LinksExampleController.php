@@ -16,10 +16,20 @@ use Drupal\Core\Url;
 class LinksExampleController extends ControllerBase {
 
     public function displayLinks() {
-        $url = Url::fromRoute('block.admin_display');
-        $link = Link::fromTextAndUrl($this->t('Block Admin Display'), $url)->toString();
+        $blockAdminDispUrl = Url::fromRoute('block.admin_display');
+        $blockAdminDispLink = Link::fromTextAndUrl($this->t('Block Admin Display'), $blockAdminDispUrl)->toString();
+
+        $sysAdConUrl = Url::fromRoute('system.admin_content');
+        $sysAdConLink = Link::fromTextAndUrl($this->t('System Admin Content'), $sysAdConUrl)->toString();
+
+        $entUserColUrl = Url::fromRoute('entity.user.collection');
+        $entUserColLink = Link::fromTextAndUrl($this->t('Entity User Collection'), $entUserColUrl)->toString();
+
+        $frontUrl = Url::fromRoute('<front>');
+        $frontLink = Link::fromTextAndUrl($this->t('Front Page'), $frontUrl)->toString();
+
         return [
-            '#markup' => $this->t('Admin links: @link', ['@link' => $link])
+            '#markup' => $this->t('Admin links: @blockAdminDispLink, @sysAdConLink, @entUserColLink, @frontLink', ['@blockAdminDispLink' => $blockAdminDispLink, '@sysAdConLink' => $sysAdConLink, '@entUserColLink' => $entUserColLink, '@frontLink' => $frontLink])
         ];
     }
 }
