@@ -1,5 +1,5 @@
 print_name.page:
-  path: "/printname/"
+  path: "/printname"
   defaults:
     _controller: '\Drupal\print_name\Controller\PrintNameController::print_name'
     _title: "Print name module"

@@ -1,0 +1,11 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+function links_example_help($route_name, RouteMatchInterface $route_match) {
+    switch ($route_name) {
+        case "help.page.links_example":
+            return t("This module gives you links to common admin pages."); 
+            break; 
+    }
+}

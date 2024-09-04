@@ -1,5 +1,5 @@
 name: links_example
-description: 'PLinks example module.'
+description: 'Links example module.'
 type: module
 core_version_requirement: ^10 || ^11 || ^12
 
