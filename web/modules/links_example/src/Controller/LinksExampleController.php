@@ -29,7 +29,12 @@ class LinksExampleController extends ControllerBase {
         $frontLink = Link::fromTextAndUrl($this->t('Front Page'), $frontUrl)->toString();
 
         return [
-            '#markup' => $this->t('Admin links: @blockAdminDispLink, @sysAdConLink, @entUserColLink, @frontLink', ['@blockAdminDispLink' => $blockAdminDispLink, '@sysAdConLink' => $sysAdConLink, '@entUserColLink' => $entUserColLink, '@frontLink' => $frontLink])
+            '#prefix' => '<ul>',
+            '#suffix' => '</ul>',
+            '#markup' => '<li>' . $blockAdminDispLink . '</li>' .
+                         '<li>' . $sysAdConLink . '</li>' .
+                         '<li>' . $entUserColLink . '</li>' .
+                         '<li>' . $frontLink . '</li>'
         ];
     }
 }
