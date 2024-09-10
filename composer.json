@@ -21,6 +21,7 @@
         "drupal/core-project-message": "^11.0",
         "drupal/core-recommended": "^11.0",
         "drupal/devel": "^5.3",
+        "drupal/environment_indicator": "^4.0",
         "drupal/mahi": "^1.1",
         "drupal/material_base": "^3.0",
         "drupal/webprofiler": "^11.0",

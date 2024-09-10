@@ -884,3 +884,7 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_vY9eGubumc9C3RAFZ7WdLeH-k8Z-wh9bjbXYp1ihPRP08EmK9zEP_rzh_PNXFFIDV6C8AWfPmw/sync';
+
+$config['environment_indicator.indicator']['bg_color'] = '#BB0066';
+$config['environment_indicator.indicator']['fg_color'] = '#FFFFBB';
+$config['environment_indicator.indicator']['name'] = 'Local';
