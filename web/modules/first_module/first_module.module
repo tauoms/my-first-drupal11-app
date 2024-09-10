@@ -11,6 +11,9 @@ function first_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $f
 
     if ($form_id = 'user_login_form') {
         $form['#title'] = t('Login with XYZ Company info');
+        $form['name']['#title'] = t('XYZ Inc. Username');
+        $form['name']['#attributes']['placeholder'] = t('XYZ Inc. Username');
+
     }
 }
 
