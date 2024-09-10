@@ -19,6 +19,15 @@ function first_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $f
 }
 
 /**
+* Implements hook_preprocess_page().
+* Passes variable to twig template.
+*/
+
+function first_module_preprocess_page(&$variable) {
+    $variable['first_module_variable'] = t('My First D11 Website');
+}
+
+/**
 * Implements hook_help().
 */
 
