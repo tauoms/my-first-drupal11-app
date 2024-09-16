@@ -4,8 +4,6 @@
 }
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -20,6 +18,7 @@ html {
 }
 
 body {
+  margin: 0;
   font-family: Inter, sans-serif;
   overflow-x: hidden;
   background-color: #1c221f;
@@ -38,17 +37,31 @@ a:visited {
 ul,
 ol {
   list-style-type: none;
+  margin-block-start: 0em;
+  padding-inline-start: 0px;
 }
 header {
   background: #495a51;
+  padding: 2rem;
 }
 .content {
   position: relative;
-  width: 70%;
+  width: 60%;
+  max-width: 1000px;
   margin: auto;
-  padding-top: 90px;
+  padding-top: 40px;
   padding-bottom: 90px;
 }
+
+.content img {
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.content h2 {
+  margin-top: 3rem;
+}
+
 .footer {
   position: relative;
   height: 150px;
@@ -59,8 +72,13 @@ header {
   padding: 20px;
   bottom: 0;
 }
-#block-icecream-theme-branding a {
-  font-size: 20px;
+
+#block-tau-dark-site-branding {
+  /* padding: 2rem; */
+}
+
+#block-tau-dark-site-branding a {
+  font-size: 2rem;
   color: #fff;
 }
 .heading {
@@ -71,13 +89,13 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-#block-icecream-theme-main-menu ul {
+#block-tau-dark-main-menu ul {
   z-index: 5;
   width: 80%;
   display: inline-block;
 }
 
-#block-icecream-theme-main-menu ul li {
+#block-tau-dark-main-menu ul li {
   padding: 10px;
   width: 10%;
   display: inline-block;
@@ -91,15 +109,16 @@ header {
   transition: 500ms;
 }
 
-#block-icecream-theme-main-menu ul li:hover {
+#block-tau-dark-main-menu ul li:hover {
   color: #e6dada;
   background-color: #13171c;
 }
-#block-icecream-theme-footer ul li {
+
+#block-tau-dark-footer ul li {
   display: inline-block;
 }
 
-#block-icecream-theme-footer ul li a {
+#block-tau-dark-footer ul li a {
   display: inline-block;
   color: #efefef;
 }
