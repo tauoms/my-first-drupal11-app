@@ -1,9 +1,9 @@
-name: tau_dark
+name: Tau Dark
 type: theme
-description: 'Custom darkmode theme.'
+description: 'Custom dark mode theme.'
 core_version_requirement: ^10 || ^11
 libraries:
-  - tau_dark_theme/global
+  - tau_dark/global
 base theme: false
 version: 0.0.1
 
@@ -13,3 +13,6 @@ regions:
   content: content
   sidebar_first: sidebar_first
   footer: footer
+
+styles:  
+  logo: false

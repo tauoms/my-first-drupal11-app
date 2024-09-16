@@ -1,41 +1,46 @@
-/* #header {
-  padding: 60px;
-  text-align: center;
-  background: #1abc9c;
-  color: white;
-  font-size: 30px;
+:root {
+  font-family: Inter, sans-serif;
+  font-feature-settings: "liga" 1, "calt" 1; /* fix for Chrome */
 }
 
-#content {
-  padding-bottom: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-#footer {
-  padding: 60px;
-  text-align: center;
-  background: grey;
-  color: white;
-  font-size: 30px;
-} */
+html {
+  scroll-behavior: smooth;
+}
+
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
+}
 
 body {
-  margin: 0;
-  font-family: "Open Sans";
+  font-family: Inter, sans-serif;
   overflow-x: hidden;
+  background-color: #1c221f;
+  color: #d1d1d1;
+  font-size: 16px;
 }
+
 a,
 a:active,
 a:hover,
 a:visited {
   text-decoration: none;
-  /* color: #000; */
+  color: #6c897d;
+  font-weight: 500;
 }
 ul,
 ol {
   list-style-type: none;
 }
 header {
-  background: #3f6d64;
+  background: #495a51;
 }
 .content {
   position: relative;
