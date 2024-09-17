@@ -1,0 +1,8 @@
+name: React Hello
+type: theme
+description: 'Loads simple react app.'
+core_version_requirement: ^9 || ^10 || ^11
+libraries:
+  - react_hello/react_app
+base theme: olivero
+version: 0.0.1
