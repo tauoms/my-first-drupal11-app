@@ -16,7 +16,9 @@ const App = () => {
 
       <ul>
         {nodes.map((node) => (
-          <li key={node.id}>{node.attributes.title}</li>
+          <li key={node.id}>
+            {node.attributes.title} ({node.attributes.created.slice(0, 10)})
+          </li>
         ))}
       </ul>
     </div>
