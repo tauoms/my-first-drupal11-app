@@ -1,0 +1,7 @@
+react_gw1:
+  version: VERSION
+  js:
+    js/dist/main.min.js: {}
+  css:
+   theme:
+    css/musicplayer.css: {}

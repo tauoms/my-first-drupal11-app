@@ -1,0 +1,7 @@
+react_gw1.page:
+  path: "/reactgw1"
+  defaults:
+    _controller: '\Drupal\react_gw1\Controller\ReactGW1Controller::renderMusicPlayer'
+    _title: "React GW1 - Music Player"
+  requirements:
+    _permission: "access content"

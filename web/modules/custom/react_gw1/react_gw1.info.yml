@@ -1,0 +1,4 @@
+name: React GW1
+description: 'React GW1 example module.'
+type: module
+core_version_requirement: ^10 || ^11 || ^12
