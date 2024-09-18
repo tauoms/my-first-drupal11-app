@@ -1,0 +1,22 @@
+uuid: c42ff949-2793-45e7-bf21-a857b4ee0a8c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mbmodified_theme
+_core:
+  default_config_hash: TGMtjlpLnf96Nmi09xt1ozqkyt8maMr2eBxjcKZhdFc
+id: mbmodified_theme_help
+theme: mbmodified_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

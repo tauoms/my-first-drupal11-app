@@ -1,0 +1,25 @@
+uuid: 5fd4a1b4-2b05-4963-9e5c-c0670aa38dc6
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6113d527-e473-41e6-84d9-7331d06613a1'
+  module:
+    - block_content
+  theme:
+    - tau_dark_theme
+id: tau_dark_theme_footertest
+theme: tau_dark_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:6113d527-e473-41e6-84d9-7331d06613a1'
+settings:
+  id: 'block_content:6113d527-e473-41e6-84d9-7331d06613a1'
+  label: 'footer test'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

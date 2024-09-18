@@ -1,0 +1,24 @@
+uuid: 6833ff3c-44ef-4cdc-b2cb-ddf2b45a6db6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testview
+  module:
+    - views
+  theme:
+    - olivero
+id: olivero_views_block__testview_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:testview-block_1'
+settings:
+  id: 'views_block:testview-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

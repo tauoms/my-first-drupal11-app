@@ -1,0 +1,22 @@
+uuid: 8493240f-60f5-40be-a752-51c9b75c1704
+langcode: en
+status: true
+dependencies:
+  theme:
+    - mbmodified_theme
+_core:
+  default_config_hash: qxElHVJpIwFjvXZkY2A1eVin73I--etjxaQQ6EiwYTU
+id: mbmodified_theme_local_tasks
+theme: mbmodified_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

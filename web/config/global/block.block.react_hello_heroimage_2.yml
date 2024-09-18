@@ -1,0 +1,25 @@
+uuid: 7a3d1988-b37d-475d-8c7d-f981aafc278d
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:4f5ddf98-b6c1-4868-9ac1-c389b6a0a7cf'
+  module:
+    - block_content
+  theme:
+    - react_hello
+id: react_hello_heroimage_2
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:4f5ddf98-b6c1-4868-9ac1-c389b6a0a7cf'
+settings:
+  id: 'block_content:4f5ddf98-b6c1-4868-9ac1-c389b6a0a7cf'
+  label: 'hero image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

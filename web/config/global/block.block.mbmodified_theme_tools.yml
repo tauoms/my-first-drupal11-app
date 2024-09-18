@@ -1,0 +1,27 @@
+uuid: 04aa6ed5-5d65-4bc5-9b1c-1de10a46cca8
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - mbmodified_theme
+_core:
+  default_config_hash: zPbSniaDUoCa9XueEvPsFCeBJ47n69lc8_5SCHpuoNQ
+id: mbmodified_theme_tools
+theme: mbmodified_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

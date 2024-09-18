@@ -1,0 +1,22 @@
+uuid: b8e132b9-87f5-4587-9b9c-44131d04fd33
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mbmodified_theme
+_core:
+  default_config_hash: PYQGCEwP5-CVhifivekkNJRcaMbSW6GXMj7CB_4DgNU
+id: mbmodified_theme_content
+theme: mbmodified_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

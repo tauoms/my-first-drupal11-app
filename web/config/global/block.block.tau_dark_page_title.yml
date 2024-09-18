@@ -1,0 +1,20 @@
+uuid: 04e95585-a86a-4292-9a0a-760390fbe3ff
+langcode: en
+status: false
+dependencies:
+  theme:
+    - tau_dark
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: tau_dark_page_title
+theme: tau_dark
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

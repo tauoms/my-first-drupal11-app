@@ -1,0 +1,27 @@
+uuid: 0202f384-2851-4c8c-b85d-09f257706851
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - mbmodified_theme
+_core:
+  default_config_hash: BY0I3jGENWjRuUG77_qLoEpD3Sl_u2IMz_51NERnycg
+id: mbmodified_theme_footer
+theme: mbmodified_theme
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Footer menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

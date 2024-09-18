@@ -1,0 +1,25 @@
+uuid: 2b1826d2-1aaa-4b11-8255-e0716e3b8fba
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - react_hello
+id: react_hello_mainnavigation
+theme: react_hello
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

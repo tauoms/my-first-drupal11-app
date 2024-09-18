@@ -1,0 +1,22 @@
+uuid: 99b26c00-4c4a-4d85-8d5f-51032e4526cd
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - tau_dark
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: tau_dark_breadcrumbs
+theme: tau_dark
+region: header
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

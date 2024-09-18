@@ -1,0 +1,25 @@
+uuid: edc1f802-13b0-423e-b355-1a4ab32d1b83
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mbmodified_theme
+_core:
+  default_config_hash: belB9UdFC7tJtOCSD_Nseupv3qTuUUMdibNQcx9h8Q0
+id: mbmodified_theme_branding
+theme: mbmodified_theme
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: de3107a8-8659-496d-8d4d-b1b641104dc3
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:6113d527-e473-41e6-84d9-7331d06613a1'
+  module:
+    - block_content
+  theme:
+    - react_hello
+id: react_hello_footertest
+theme: react_hello
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:6113d527-e473-41e6-84d9-7331d06613a1'
+settings:
+  id: 'block_content:6113d527-e473-41e6-84d9-7331d06613a1'
+  label: 'footer test'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

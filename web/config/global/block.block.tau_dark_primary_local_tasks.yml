@@ -1,0 +1,22 @@
+uuid: aff7f764-8121-4133-b170-5e4a67b27ac2
+langcode: en
+status: false
+dependencies:
+  theme:
+    - tau_dark
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: tau_dark_primary_local_tasks
+theme: tau_dark
+region: header
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

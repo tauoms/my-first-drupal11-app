@@ -1,0 +1,22 @@
+uuid: aa0d61e8-9be3-4dc2-9990-7c324ee1c6c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tau_dark
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: tau_dark_content
+theme: tau_dark
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

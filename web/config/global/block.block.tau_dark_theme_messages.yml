@@ -1,0 +1,22 @@
+uuid: a225d21e-166f-4996-8448-fcf781108e86
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tau_dark_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: tau_dark_theme_messages
+theme: tau_dark_theme
+region: header
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

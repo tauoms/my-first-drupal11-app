@@ -883,7 +883,10 @@ $databases['default']['default'] = array (
   'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
-$settings['config_sync_directory'] = 'sites/default/files/config_vY9eGubumc9C3RAFZ7WdLeH-k8Z-wh9bjbXYp1ihPRP08EmK9zEP_rzh_PNXFFIDV6C8AWfPmw/sync';
+
+// $settings['config_sync_directory'] = 'sites/default/files/config_vY9eGubumc9C3RAFZ7WdLeH-k8Z-wh9bjbXYp1ihPRP08EmK9zEP_rzh_PNXFFIDV6C8AWfPmw/sync';
+$settings['config_sync_directory'] = './config/global';
+$settings['config_exclude_modules'] = ['devel', 'webprofiler'];
 
 $config['environment_indicator.indicator']['bg_color'] = '#BB0066';
 $config['environment_indicator.indicator']['fg_color'] = '#FFFFBB';

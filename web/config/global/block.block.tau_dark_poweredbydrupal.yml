@@ -1,0 +1,20 @@
+uuid: b3f8be59-2ee2-442d-b07f-144f61039529
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tau_dark
+id: tau_dark_poweredbydrupal
+theme: tau_dark
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

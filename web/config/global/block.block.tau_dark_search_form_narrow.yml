@@ -1,0 +1,23 @@
+uuid: 08656b59-23dd-488c-9092-6e9ab5b50c29
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - tau_dark
+_core:
+  default_config_hash: yEBET0cqDbk8dkWzaJw-8CKft0961VBflsISoSR6Lj8
+id: tau_dark_search_form_narrow
+theme: tau_dark
+region: header
+weight: -8
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (narrow)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

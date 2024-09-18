@@ -1,0 +1,22 @@
+uuid: 410e707b-a2c8-4488-855c-674fba4b1ac0
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mbmodified_theme
+_core:
+  default_config_hash: VBCsu3TNhjV8ub1A7SeAP7yRX4uqpZTL7yR1Qot5zRA
+id: mbmodified_theme_messages
+theme: mbmodified_theme
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

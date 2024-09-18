@@ -1,0 +1,25 @@
+uuid: 3b102b74-a157-4d54-9ecf-23766135a875
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - tau_dark
+id: tau_dark_mainnavigation
+theme: tau_dark
+region: menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

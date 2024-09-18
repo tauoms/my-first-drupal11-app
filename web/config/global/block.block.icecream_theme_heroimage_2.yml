@@ -1,0 +1,25 @@
+uuid: c9be8126-c5c0-46e6-b806-7adc20d68ab2
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:basic:4f5ddf98-b6c1-4868-9ac1-c389b6a0a7cf'
+  module:
+    - block_content
+  theme:
+    - icecream_theme
+id: icecream_theme_heroimage_2
+theme: icecream_theme
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:4f5ddf98-b6c1-4868-9ac1-c389b6a0a7cf'
+settings:
+  id: 'block_content:4f5ddf98-b6c1-4868-9ac1-c389b6a0a7cf'
+  label: 'hero image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

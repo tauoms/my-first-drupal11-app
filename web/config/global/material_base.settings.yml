@@ -1,0 +1,19 @@
+_core:
+  default_config_hash: '-bw563cVDAeUQThWL7jRpkx6IVGPpV5e9ULKUykUiqs'
+navbar_fixed: 0
+navbar_style: standard
+drawer_style: modal
+drawer_height: full
+footer_style: standard
+messages_fixed: 0
+features:
+  node_user_picture: 1
+  comment_user_picture: 1
+  comment_user_verification: 1
+  favicon: 0
+logo:
+  use_default: 0
+  path: 'public://logoipsum-300.svg'
+favicon:
+  use_default: 0
+  path: ''

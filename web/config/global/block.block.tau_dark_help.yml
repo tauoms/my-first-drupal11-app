@@ -1,0 +1,22 @@
+uuid: 062a7272-7630-4fb4-a817-08f0eab8d3dd
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - tau_dark
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: tau_dark_help
+theme: tau_dark
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

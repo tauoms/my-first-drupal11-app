@@ -1,0 +1,22 @@
+uuid: 0ee72252-06a4-457f-8040-0784bbd79433
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - tau_dark_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: tau_dark_theme_powered
+theme: tau_dark_theme
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
