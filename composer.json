@@ -24,6 +24,7 @@
         "drupal/environment_indicator": "^4.0",
         "drupal/mahi": "^1.1",
         "drupal/material_base": "^3.0",
+        "drupal/restui": "^1.22",
         "drupal/webprofiler": "^11.0",
         "drush/drush": "^13.0"
     },
