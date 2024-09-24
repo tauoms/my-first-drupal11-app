@@ -1,0 +1,5 @@
+name: 'My Generated Module'
+type: module
+description: 'Testing'
+package: Custom
+core_version_requirement: ^10 || ^11
