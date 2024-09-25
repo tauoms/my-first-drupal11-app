@@ -14,12 +14,7 @@ class PalindromeCheckerController extends ControllerBase {
         $url = Url::fromRoute('palindrome_checker.form');
         $link = Link::fromTextAndUrl($this->t('Go to the form'), $url)->toString();
         return [
-            '#markup' => $this->t('Hello, @urlName! @link', ['@link' => $link])
-        ];
-    }
-    public function greeting($url_name) {
-        return [
-            '#markup' => $this->t('Hello, @name!', ['@name' => $url_name])
+            '#markup' => $this->t('Hello, @link to check if your word is a palindrome.', ['@link' => $link])
         ];
     }
 
