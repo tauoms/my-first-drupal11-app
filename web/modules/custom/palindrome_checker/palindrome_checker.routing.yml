@@ -2,7 +2,7 @@ palindrome_checker.page:
   path: "/palindromechecker"
   defaults:
     _controller: '\Drupal\palindrome_checker\Controller\PalindromeCheckerController::check_palindrome'
-    _title: "Palindrome Checker module"
+    _title: "Palindrome Checker"
   requirements:
     _permission: "access content"
 
@@ -10,6 +10,6 @@ palindrome_checker.form:
   path: "/palindromechecker-form"
   defaults:
     _form: '\Drupal\palindrome_checker\Form\PalindromeCheckerForm'
-    _title: "Palindrome Checker form"
+    _title: "Palindrome Checker"
   requirements:
     _permission: "access content"
